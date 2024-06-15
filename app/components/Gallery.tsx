@@ -9,7 +9,7 @@ import { getBase64Urls } from "../lib/getBase64";
 
 
 type Props ={
-  topic: string;
+  topic?: string;
 }
 
 export default async function Gallery({topic} : Props) {
