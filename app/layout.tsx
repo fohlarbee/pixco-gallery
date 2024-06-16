@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { ThemeProvider } from "./components/THemeProvider";
 
 
 export const revalidate = 10
@@ -18,10 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <ThemeProvider>
         <Navbar/>
         <main className="max-w-6xl mx-auto">
           {children}
         </main>
+        </ThemeProvider>
         </body>
     </html>
   );
