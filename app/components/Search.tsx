@@ -16,16 +16,16 @@ export  default function Search(){
 
     return(
         <form className="flex justify-center md:justify-between" onSubmit={handleSubmit}>
-            <div className="bg-[#fff] p-2 w-[360px]  text-xl rounded-xl text-[#000] flex justify-between"
+            <div className="bg-[#fff] p-2 md:w-[360px] sm:w-[260px] text-xl rounded-xl text-[#000] flex justify-between h-10"
             >
                 <input 
                 type="text"
                 placeholder="Search"
                 onChange={(e) => setSearch(e.target.value)} 
                 value={search}
-                className="w-[220px] focus:outline-none"
+                className="w-[220px] focus:outline-none  bg-[#fff]"
                 />
-                <button onClick={handleSubmit} className="z-10 bg-red-300 p-1 px-4 rounded-md" >Go</button>
+                <button onClick={handleSubmit} className="z-10 bg-red-300  px-4 rounded-md" >Go</button>
 
             </div>
            
