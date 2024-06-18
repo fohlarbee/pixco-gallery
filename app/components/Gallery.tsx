@@ -4,10 +4,10 @@ import type { ImagesResults, Photo } from "../models/Images";
 
 
 import React from 'react'
-import PhotoCard from "./ImageContaner";
-import { getBase64Urls } from "../lib/getBase64";
-import getPrevNextPages from "@/lib/getNextPrevPage";
-import Footer from "./Footer";
+import PhotoCard from "./ImageContaner.js";
+import { getBase64Urls } from "../lib/getBase64.js";
+import getPrevNextPages from "@/lib/getNextPrevPage.js";
+import Footer from "./Footer.js";
 
 
 type Props ={
