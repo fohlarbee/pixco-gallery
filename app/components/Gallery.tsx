@@ -6,7 +6,7 @@ import type { ImagesResults } from "../models/Images";
 import React from 'react'
 import PhotoCard from "./ImageContaner";
 import { getBase64Urls } from "../lib/getBase64";
-import getPrevNextPages from "@/lib/getNextPrevPage";
+import getPrevNextPages from "../../lib/getNextPrevPage";
 import Footer from "./Footer";
 
 
