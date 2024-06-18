@@ -20,7 +20,7 @@ export  default function Search(){
             >
                 <input 
                 type="text"
-                placeholder="Search"
+                placeholder="Search"    
                 onChange={(e) => setSearch(e.target.value)} 
                 value={search}
                 className="w-[220px] focus:outline-none  bg-[#fff]"
