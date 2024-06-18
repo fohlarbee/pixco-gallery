@@ -1,16 +1,16 @@
 import fetchImages from "../lib/fetchImages";
-import type { ImagesResults, Photo } from "../models/Images";
+import type { ImagesResults } from "../models/Images";
 
 
 
 import React from 'react'
-import PhotoCard from "./ImageContaner.js";
-import { getBase64Urls } from "../lib/getBase64.js";
-import getPrevNextPages from "@/lib/getNextPrevPage.js";
-import Footer from "./Footer.js";
+import PhotoCard from "./ImageContaner";
+import { getBase64Urls } from "../lib/getBase64";
+import getPrevNextPages from "@/lib/getNextPrevPage";
+import Footer from "./Footer";
 
 
-type Props ={
+type Props = {
   topic?: string |undefined; 
   page?: string |undefined;
 }
